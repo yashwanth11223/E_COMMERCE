@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///D:/project/E_commerce/User_Login_Auth/Login_Auth/components/Session.js"],"sourcesContent":["\"use client\"\r\nimport React, { Children } from 'react'\r\nimport { SessionProvider } from \"next-auth/react\"\r\nconst Session = ({children}) => {\r\n  return (\r\n      <SessionProvider>\r\n        {children}\r\n      </SessionProvider>\r\n  )\r\n}\r\n\r\nexport default Session\r\n"],"names":[],"mappings":";;;;;AACA;AACA;AAFA;;;;AAGA,MAAM,UAAU,CAAC,EAAC,QAAQ,EAAC;IACzB,qBACI,6RAAC,gNAAe;kBACb;;;;;;AAGT;uCAEe"}},
+    {"offset": {"line": 41, "column": 0}, "map": {"version":3,"sources":["file:///D:/project/E_commerce/User_Login_Auth/Login_Auth/components/AuthWrapper.js"],"sourcesContent":["\"use client\";\r\n\r\nimport { useSession } from \"next-auth/react\";\r\nimport { Nav } from \"./Nav\";\r\n\r\nexport default function AuthWrapper({ children }) {\r\n\r\n  const { data: session, status } = useSession();\r\n\r\n  if (status === \"loading\") {\r\n    return null;\r\n  }\r\n\r\n  return (\r\n    <>\r\n      {session && <Nav />}\r\n      {children}\r\n    </>\r\n  );\r\n}"],"names":[],"mappings":";;;;;AAEA;AACA;AAHA;;;;AAKe,SAAS,YAAY,EAAE,QAAQ,EAAE;IAE9C,MAAM,EAAE,MAAM,OAAO,EAAE,MAAM,EAAE,GAAG,IAAA,2MAAU;IAE5C,IAAI,WAAW,WAAW;QACxB,OAAO;IACT;IAEA,qBACE;;YACG,yBAAW,6RAAC,uKAAG;;;;;YACf;;;AAGP"}}]
+}

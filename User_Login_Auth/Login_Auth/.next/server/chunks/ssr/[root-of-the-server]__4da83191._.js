@@ -1,0 +1,3 @@
+module.exports=[93695,(a,b,c)=>{b.exports=a.x("next/dist/shared/lib/no-fallback-error.external.js",()=>require("next/dist/shared/lib/no-fallback-error.external.js"))},6867,a=>{a.n(a.i(30906))},89130,a=>{a.n(a.i(93216))},21901,a=>{a.n(a.i(28284))},97388,a=>{a.n(a.i(99772))},85824,a=>{a.n(a.i(88371))},46552,a=>{"use strict";var b=a.i(94648);a.i(97659),a.s(["default",0,()=>(0,b.jsx)("div",{children:"i am invavitable"})])}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__4da83191._.js.map
